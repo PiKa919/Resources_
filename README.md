@@ -2,6 +2,7 @@
 
 # Graphics/Videos
 [Animate Designs](https://artboard.studio/) - Website to animate design for beginners \\
+
 [Create Animated Content](https://jitter.video/) - Jitter enables creators to easily design stunning animated content and interfaces.
 
 # Photos
