@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    font-size: 24px;
+    font-weight: 100;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #4964ef;
+  }
+  
+  form {
+    background: #ff0000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ff1303; /* Add this line to add a border around the form */
+    padding: 20px;
+  }
+  
+  table {
+    background: #4964ef;
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #000000;
+  }
+  td:first-child {
+    padding-left: 20px;
+  }
+  
+  td:last-child {
+    padding-right: 200px;
+  }
+  
+  td:not(:last-child):not(:first-child) {
+    padding: 0 20px;
+  }
+
+  td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #000000;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  select {
+    padding: 8px;
+    width: 100%;
+    border: 2px solid #ff0000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
